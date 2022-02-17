@@ -1,0 +1,20 @@
+{
+    "name": "sitepilot/wp-plugin",
+    "description": "WordPress plugin framework by Sitepilot.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Sitepilot\\WpPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Jansen",
+            "email": "n.jansen@sitepilot.io"
+        }
+    ],
+    "require": {
+        "sitepilot/wp-framework": "^1.0.0|dev-main"
+    }
+}
